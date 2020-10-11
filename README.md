@@ -2,6 +2,11 @@ LeetCode
 ========
 
 ### LeetCode Algorithm
+* [Hash Table](https://github.com/danghai/leetcode#hash-table)
+* [Binary Search](https://github.com/danghai/leetcode#binary-search)
+* [Heap](https://github.com/danghai/leetcode#heap)
+* [Backtracking](https://github.com/danghai/leetcode#backtracking)
+
 
 
 ## Hash Table
