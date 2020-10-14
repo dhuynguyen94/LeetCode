@@ -1,3 +1,5 @@
+# Time complexity : N * N!/(N−k)!k!
+# Space Complexity: N * N!/(N−k)!k!
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         result = []
