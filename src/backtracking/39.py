@@ -18,7 +18,7 @@ class Solution:
             return
         for i in range(len(candidates)):
             path.append(candidates[i])
-            self.BackTrackCombinationSum(candidates, target - candidates[i], path, result)
+            self.BackTrackCombinationSum(candidates[i:], target - candidates[i], path, result)
             path.pop()
 
 
