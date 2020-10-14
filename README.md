@@ -28,3 +28,7 @@ LeetCode
 ## Backtracking
 | # | Title | Solution | Difficulty | Tag |
 |---| ----- | -------- | ---------- | --- |
+|39|[Combination Sum](https://leetcode.com/problems/combination-sum/) | [Combination Sum](./src/backtracking/39.py)|Medium| Combination Sum |
+|40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [Combination Sum II](./src/backtracking/40.py)|Medium| Combination Sum |
+|46|[Permutations](https://leetcode.com/problems/permutations/) | [Permutations](./src/backtracking/46.py)|Medium| Permutations |
+|47|[Permutations II](https://leetcode.com/problems/permutations-ii/) | [Permutations II](./src/backtracking/47.py)|Medium| Permutations II |
