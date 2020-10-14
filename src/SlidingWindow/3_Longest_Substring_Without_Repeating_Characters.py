@@ -1,4 +1,4 @@
-def lengthOfLongestSubstring(self, s: str) -> int:
+def lengthOfLongestSubstring(s: str) -> int:
     seen = {}
     start = 0
     result = 0
