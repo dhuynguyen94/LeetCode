@@ -7,6 +7,7 @@ LeetCode
 * [Heap](https://github.com/danghai/leetcode#heap)
 * [Backtracking](https://github.com/danghai/leetcode#backtracking)
 * [Sliding Window](https://github.com/danghai/leetcode#Sliding-Window)
+* [Trie](https://github.com/danghai/leetcode#Trie)
 
 
 
@@ -42,3 +43,11 @@ LeetCode
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Find All Anagrams in a String](./src/SlidingWindow/438.py)|Medium| |
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Permutation in String](./src/SlidingWindow/567.py)|Medium| |
 |1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Max Consecutive Ones III](./src/SlidingWindow/1004.py)|Medium| |
+
+## Trie
+| # | Title | Solution | Difficulty | Tag |
+|---| ----- | -------- | ---------- | --- |
+|208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Implement Trie (Prefix Tree)](./src/trie/208.py)|Medium| Important |
+|211|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Design Add and Search Words Data Structure](./src/trie/211.py)|Medium| |
+|676|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/) | [Implement Magic Dictionary](./src/trie/676.py)|Medium| |
+|1023|[Camelcase Matching](https://leetcode.com/problems/camelcase-matching/) | [Camelcase Matching](./src/trie/1023.py)|Medium| |
