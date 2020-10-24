@@ -19,7 +19,8 @@ LeetCode
 
 ## Binary Search
 | # | Title | Solution | Difficulty | Tag |
-|33 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Search in Rotated Sorted Array](./src/BinarySearch/33_Search_In_Rotated_Sorted_Array.py)| Medium|| 
+|---| ----- | -------- | ---------- | --- |
+|33| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Search in Rotated Sorted Array](./src/BinarySearch/33_Search_In_Rotated_Sorted_Array.py) | Medium || 
 |162| [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | [Find Peak Element](./src/162_FindPeakElement.py) | Medium ||
 |153| [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [Find Minimum in Rotated Sorted Array](./src/153_Find_Minimum_In_Rotated_Sorted_Array.py) | Medium ||
 
