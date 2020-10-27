@@ -40,6 +40,7 @@ LeetCode
 |46|[Permutations](https://leetcode.com/problems/permutations/) | [Permutations](./src/backtracking/46.py)|Medium| |
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/) | [Permutations II](./src/backtracking/47.py)|Medium| |
 |51|[N-Queens](https://leetcode.com/problems/n-queens/) | [N-Queens](./src/backtracking/51.py)|Hard| |
+|52|[N-Queens 2](https://leetcode.com/problems/n-queens-ii/) | [N-Queens](./src/backtracking/52.py)|Hard| |
 
 ## Sliding Window
 | # | Title | Solution | Difficulty | Tag |
