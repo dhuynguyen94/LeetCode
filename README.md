@@ -39,6 +39,7 @@ LeetCode
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [Combination Sum II](./src/backtracking/40.py)|Medium| |
 |46|[Permutations](https://leetcode.com/problems/permutations/) | [Permutations](./src/backtracking/46.py)|Medium| |
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/) | [Permutations II](./src/backtracking/47.py)|Medium| |
+|51|[N-Queens](https://leetcode.com/problems/n-queens/) | [N-Queens](./src/backtracking/51.py)|Hard| |
 
 ## Sliding Window
 | # | Title | Solution | Difficulty | Tag |
