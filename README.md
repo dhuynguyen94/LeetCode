@@ -3,6 +3,7 @@ LeetCode
 
 ### LeetCode Algorithm
 * [Hash Table](https://github.com/danghai/leetcode#hash-table)
+* [Tree](https://github.com/danghai/leetcode#Tree)
 * [Binary Search](https://github.com/danghai/leetcode#binary-search)
 * [Heap](https://github.com/danghai/leetcode#heap)
 * [Backtracking](https://github.com/danghai/leetcode#backtracking)
@@ -17,6 +18,16 @@ LeetCode
 |---| ----- | -------- | ---------- | --- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Two_Sum](./src/1.py)|Easy| Two Pointer |
 
+## Tree
+| # | Title | Solution | Difficulty | Tag |
+|---| ----- | -------- | ---------- | --- |
+|102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Binary Tree Level Order Traversal](./src/tree/102.py)|Medium| Tree level |
+|103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Binary Tree Zigzag Level Order Traversal](./src/tree/103.py)|Medium| Tree level |
+|107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | [Binary Tree Level Order Traversal II](./src/tree/107.py)|Easy| Tree level |
+|515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Find Largest Value in Each Tree Row](./src/tree/515.py)|Medium| Tree level |
+|637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Average of Levels in Binary Tree](./src/tree/637.py)|Easy| Tree level |
+|1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | [Maximum Level Sum of a Binary Tree](./src/tree/1161.py)|Medium| Tree level |
+|1609|[Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | [Even Odd Tree](./src/tree/1609.py)|Medium| Tree level |
 
 ## Binary Search
 | # | Title | Solution | Difficulty | Tag |
