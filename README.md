@@ -67,6 +67,7 @@ LeetCode
 |---| ----- | -------- | ---------- | --- |
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Implement Trie (Prefix Tree)](./src/trie/208.py)|Medium| Important |
 |211|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [Design Add and Search Words Data Structure](./src/trie/211.py)|Medium| |
+|648|[Replace Words](https://leetcode.com/problems/replace-words/) | [Replace Words](./src/trie/648.py)|Medium| |
 |676|[Implement Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/) | [Implement Magic Dictionary](./src/trie/676.py)|Medium| |
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/) | [Map Sum Pairs](./src/trie/677.py)|Medium| |
 |720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/) | [Longest Word in Dictionary](./src/trie/720.py)|Easy| |
