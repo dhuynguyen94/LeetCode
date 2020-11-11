@@ -1,6 +1,7 @@
 LeetCode
 ========
-
+### Link Video
+https://drive.google.com/drive/folders/1xUfwdy19BBA_1bLMaFR_J668iBmjBYUT?usp=sharing
 ### LeetCode Algorithm
 * [Hash Table](https://github.com/danghai/leetcode#hash-table)
 * [Tree](https://github.com/danghai/leetcode#Tree)
