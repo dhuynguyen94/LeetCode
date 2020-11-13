@@ -50,7 +50,9 @@ https://drive.google.com/drive/folders/1xUfwdy19BBA_1bLMaFR_J668iBmjBYUT?usp=sha
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Kth Smallest Element in a Sorted Matrix](./src/Heap/378.py)|Medium| |
 |451|[Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Sort Characters By Frequency](./src/Heap/451.py)|Medium| |
 |692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/) | [Top K Frequent Words](./src/Heap/692.py)|Medium| Important |
+|743|[Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [Network Delay Time](./src/Heap/743.py)|Medium| Good. Graph + Heap |
 |767|[Reorganize String](https://leetcode.com/problems/reorganize-string/) | [Reorganize String](./src/Heap/767.py)|Medium| |
+|787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Cheapest Flights Within K Stops](./src/Heap/787.py)|Medium| Good. Graph + Heap |
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [K Closest Points to Origin](./src/Heap/973.py)|Medium| Good |
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Last Stone Weight](./src/Heap/1046.py)|Easy| |
 |1054|[Distant Barcodes](https://leetcode.com/problems/distant-barcodes/) | [Distant Barcodes](./src/Heap/1054.py)|Medium| Similar 767 |
