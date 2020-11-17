@@ -75,14 +75,18 @@ https://drive.google.com/drive/folders/1xUfwdy19BBA_1bLMaFR_J668iBmjBYUT?usp=sha
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Longest Substring](./src/SlidingWindow/3.py)|Medium| |
 |159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [solution](./src/SlidingWindow/159.py)|Medium| Good. Not fix size|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Minimum Size Subarray Sum](./src/SlidingWindow/209.py)|Medium| |
+|239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Solution](./src/SlidingWindow/239.py)|Hard| |
 |340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [Solution](./src/SlidingWindow/340.py)|Hard| Similar 159 |
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Find All Anagrams in a String](./src/SlidingWindow/438.py)|Medium| |
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Permutation in String](./src/SlidingWindow/567.py)|Medium| |
+|713|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | [Solution](./src/SlidingWindow/713.py)|Medium| |
 |1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Max Consecutive Ones III](./src/SlidingWindow/1004.py)|Medium| |
 |1100|[Find K-Length Substrings With No Repeated Characters](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/) | [Solution](./src/SlidingWindow/1100.py)|Medium| Good, Fix size |
+|1208|[Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/) | [Solution](./src/SlidingWindow/1208.py)|Medium| Good |
 |1358|[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | [Solution](./src/SlidingWindow/1358.py)|Medium| |
 |1438|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [Solution](./src/SlidingWindow/1438.py)|Medium| Good, Heap + SlidingWindow |
 |1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | [Solution](./src/SlidingWindow/1456.py)|Medium| |
+|1658|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | [Solution](./src/SlidingWindow/1658.py)|Medium| |
 
 ## Trie
 | # | Title | Solution | Difficulty | Tag |
