@@ -23,4 +23,19 @@ def findAnagrams(self, s: str, p: str) -> List[int]:
 
 # Time Complexity: O(n)
 # Space Complexity: O(n)
-    
+class Solution:
+    def findAnagrams(self, s: str, p: str) -> List[int]:
+        ans = []
+        k = len(p)
+        dict_p = collections.Counter(p)
+        dict_s = collections.Counter(s[:len(p)])
+        if dict_p == dict_s:
+            ans.append(0)
+        for i in range(k, len(s)):
+            dict_s[s[i]] += 1
+            dict_s[s[i-k]] -= 1
+            if dict_s[s[i-k]] == 0:
+                del dict_s[s[i-k]]
+            if dict_s == dict_p:
+                ans.append(i-k+1)
+        return ans

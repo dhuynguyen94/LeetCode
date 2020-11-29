@@ -1,7 +1,5 @@
 LeetCode
 ========
-### Link Video
-https://drive.google.com/drive/folders/1xUfwdy19BBA_1bLMaFR_J668iBmjBYUT?usp=sharing
 ### LeetCode Algorithm
 * [Hash Table](https://github.com/danghai/leetcode#hash-table)
 * [Tree](https://github.com/danghai/leetcode#Tree)
@@ -56,6 +54,7 @@ https://drive.google.com/drive/folders/1xUfwdy19BBA_1bLMaFR_J668iBmjBYUT?usp=sha
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [K Closest Points to Origin](./src/Heap/973.py)|Medium| Good |
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Last Stone Weight](./src/Heap/1046.py)|Easy| |
 |1054|[Distant Barcodes](https://leetcode.com/problems/distant-barcodes/) | [Distant Barcodes](./src/Heap/1054.py)|Medium| Similar 767 |
+|1636|[Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/) | [Solution](./src/Heap/1636.py)|Easy| |
 
 
 ## Backtracking
@@ -73,6 +72,7 @@ https://drive.google.com/drive/folders/1xUfwdy19BBA_1bLMaFR_J668iBmjBYUT?usp=sha
 |---| ----- | -------- | ---------- | --- |
 |***|[Template](https://docs.google.com/document/d/16qRUpXue1P1dkje2C_kNZwnwL2P1xTxmQb6pTLSbJ8o/)| [Solution](./src/SlidingWindow/Template.py)| | |
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Longest Substring](./src/SlidingWindow/3.py)|Medium| |
+|76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Solution](./src/SlidingWindow/76.py)|Hard| |
 |159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [solution](./src/SlidingWindow/159.py)|Medium| Good. Not fix size|
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Minimum Size Subarray Sum](./src/SlidingWindow/209.py)|Medium| |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Solution](./src/SlidingWindow/239.py)|Hard| |
@@ -103,9 +103,13 @@ https://drive.google.com/drive/folders/1xUfwdy19BBA_1bLMaFR_J668iBmjBYUT?usp=sha
 ## Graph
 | # | Title | Solution | Difficulty | Tag |
 |---| ----- | -------- | ---------- | --- |
+|127|[Word Ladder](https://leetcode.com/problems/word-ladder/) | [Word Ladder](./src/Graph/127.py)|Medium|
+|200|[Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Solution](./src/Graph/200.py)|Medium| Island Graph Important |
 |207|[Course Schedule](https://leetcode.com/problems/course-schedule/) | [Course Schedule](./src/Graph/207.py)|Medium| Topological Sort |
 |210|[Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [Course Schedule II](./src/Graph/210.py)|Medium| Topological Sort |
 |323|[Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Number of Connected Components](./src/Graph/323.py)|Medium| Important |
+|463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/) | [Solution](./src/Graph/463.py)|Easy| Island Graph |
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/) | [Friend Circles](./src/Graph/547.py)|Medium| |
+|695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Solution](./src/Graph/695.py)|Medium| Island Graph |
+|1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Solution](./src/Graph/1254.py)|Medium| Island Graph |
 |1462|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) | [Course Schedule IV](./src/Graph/1462.py)|Medium| Topological Sort |
-|127|[Word Ladder](https://leetcode.com/problems/word-ladder/) | [Word Ladder](./src/Graph/127.py)|Medium|
