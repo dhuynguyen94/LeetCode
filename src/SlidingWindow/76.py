@@ -30,3 +30,27 @@ class Solution(object):
         if ans[0] == 'inf' or ans[1] == None:
             return ""
         return s[ans[1]: ans[1]+ans[0]]
+    
+    #Another solution using one dictionary only
+    def minWindow2(self, s: str, t: str) -> str:
+        hmap = {}
+        i, counter = 0,0
+        res = [0,len(s)]
+        for c in t:
+            hmap[c] = hmap.get(c,0) + 1
+        for j in range(0,len(s)):
+            if s[j] in hmap:
+                if hmap[s[j]] >= 1:
+                    counter += 1
+                hmap[s[j]] -= 1
+            #when it is valid, increment i as much as we can
+            while counter == len(t): 
+                if j - i < res[1] - res[0]: #new minimum substring
+                    res[0] = i
+                    res[1] = j
+                if s[i] in hmap:
+                    hmap[s[i]] += 1
+                    if hmap[s[i]] >= 1:
+                        counter -= 1
+                i += 1
+        return "" if res[1] == len(s) else s[res[0]:res[1]+1]

@@ -77,6 +77,7 @@ LeetCode
 |209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [Minimum Size Subarray Sum](./src/SlidingWindow/209.py)|Medium| |
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Solution](./src/SlidingWindow/239.py)|Hard| |
 |340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [Solution](./src/SlidingWindow/340.py)|Hard| Similar 159 |
+|395|[Longest Substring with At Least K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/) | [Solution](./src/SlidingWindow/395.py)|Medium| Hard to find shrink condition |
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Find All Anagrams in a String](./src/SlidingWindow/438.py)|Medium| |
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Permutation in String](./src/SlidingWindow/567.py)|Medium| |
 |713|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | [Solution](./src/SlidingWindow/713.py)|Medium| |

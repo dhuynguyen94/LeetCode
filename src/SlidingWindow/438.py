@@ -39,3 +39,26 @@ class Solution:
             if dict_s == dict_p:
                 ans.append(i-k+1)
         return ans
+
+#Another solution using one dictionary, and following the template
+
+    def findAnagrams2(self, s: str, p: str) -> List[int]:
+        hmap = {}
+        i = lenCounter = 0
+        for c in p:
+            hmap[c] = hmap.get(c,0) + 1
+        res = []
+        for j in range(0, len(s)):
+            if s[j] in hmap:
+                hmap[s[j]] -= 1
+                if hmap[s[j]] >= 0:
+                    lenCounter += 1
+            if lenCounter == len(p):
+                res.append(i)
+            if j - i + 1 == len(p):
+                if s[i] in hmap:
+                    if hmap[s[i]] >= 0:
+                        lenCounter -= 1
+                    hmap[s[i]] += 1
+                i += 1
+        return res
