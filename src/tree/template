@@ -1,0 +1,12 @@
+DFS template for tree problem
+
+def dfs(root):
+    # Base case
+    if not root:
+        return
+
+    <do something>          # Pre-order
+    self.dfs(root.left)
+    <do something>          # In-order
+    self.dfs(root.right)
+    <do something>          # Post-order

@@ -21,12 +21,21 @@ LeetCode
 ## Tree
 | # | Title | Solution | Difficulty | Tag |
 |---| ----- | -------- | ---------- | --- |
+|0| | [dfs Template](./src/tree/template)|| |
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Binary Tree Level Order Traversal](./src/tree/102.py)|Medium| Tree level |
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [Binary Tree Zigzag Level Order Traversal](./src/tree/103.py)|Medium| Tree level |
 |107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | [Binary Tree Level Order Traversal II](./src/tree/107.py)|Easy| Tree level |
+|112|[Path Sum](https://leetcode.com/problems/path-sum/) | [Solution](./src/tree/112.py)|Easy| DFS Tree Path |
+|113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Solution](./src/tree/113.py)|Medium| DFS Tree Path |
+|257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Solution](./src/tree/257.py)|Easy| DFS Tree Path |
+|437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/) | [Solution](./src/tree/437.py)|Medium| DFS Tree Path |
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Find Largest Value in Each Tree Row](./src/tree/515.py)|Medium| Tree level |
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Average of Levels in Binary Tree](./src/tree/637.py)|Easy| Tree level |
+|872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [Solution](./src/tree/872.py)|Easy| DFS |
+|897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | [Solution](./src/tree/897.py)|Easy| DFS + Inorder |
 |1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | [Maximum Level Sum of a Binary Tree](./src/tree/1161.py)|Medium| Tree level |
+|1315|[Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | [Solution](./src/tree/1315.py)|Medium| DFS |
+|1469|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/) | [Solution](./src/tree/1469.py)|Easy| DFS |
 |1609|[Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | [Even Odd Tree](./src/tree/1609.py)|Medium| Tree level |
 
 ## Binary Search
@@ -70,7 +79,7 @@ LeetCode
 ## Sliding Window
 | # | Title | Solution | Difficulty | Tag |
 |---| ----- | -------- | ---------- | --- |
-|***|[Template](https://docs.google.com/document/d/16qRUpXue1P1dkje2C_kNZwnwL2P1xTxmQb6pTLSbJ8o/)| [Solution](./src/SlidingWindow/Template.py)| | |
+||[Template](https://docs.google.com/document/d/16qRUpXue1P1dkje2C_kNZwnwL2P1xTxmQb6pTLSbJ8o/)| [Solution](./src/SlidingWindow/Template.py)| | |
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Longest Substring](./src/SlidingWindow/3.py)|Medium| |
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [Solution](./src/SlidingWindow/76.py)|Hard| |
 |159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [solution](./src/SlidingWindow/159.py)|Medium| Good. Not fix size|
