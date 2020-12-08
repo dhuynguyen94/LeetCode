@@ -17,6 +17,7 @@ LeetCode
 |---| ----- | -------- | ---------- | --- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Two_Sum](./src/1.py)|Easy| Two Pointer |
 |1647|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | [Minimum Deletions to Make Character Frequencies Unique](./src/HashTable/1647.py)|Medium| |
+|1679|[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [Solution](./src/HashTable/1679.py)|Medium| Good |
 
 ## Tree
 | # | Title | Solution | Difficulty | Tag |
@@ -27,16 +28,22 @@ LeetCode
 |107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | [Binary Tree Level Order Traversal II](./src/tree/107.py)|Easy| Tree level |
 |112|[Path Sum](https://leetcode.com/problems/path-sum/) | [Solution](./src/tree/112.py)|Easy| DFS Tree Path |
 |113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [Solution](./src/tree/113.py)|Medium| DFS Tree Path |
+|235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](./src/tree/235.py)|Easy| DFS + LCA |
+|236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Solution](./src/tree/236.py)|Medium| DFS + LCA good |
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Solution](./src/tree/257.py)|Easy| DFS Tree Path |
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/) | [Solution](./src/tree/437.py)|Medium| DFS Tree Path |
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Find Largest Value in Each Tree Row](./src/tree/515.py)|Medium| Tree level |
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Average of Levels in Binary Tree](./src/tree/637.py)|Easy| Tree level |
+|865|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) | [Solution](./src/tree/865.py)|Medium| DFS + LCA |
 |872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [Solution](./src/tree/872.py)|Easy| DFS |
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | [Solution](./src/tree/897.py)|Easy| DFS + Inorder |
+|1123|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) | [Solution](./src/tree/1123.py)|Medium| DFS + LCA |
 |1161|[Maximum Level Sum of a Binary Tree](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree/) | [Maximum Level Sum of a Binary Tree](./src/tree/1161.py)|Medium| Tree level |
 |1315|[Sum of Nodes with Even-Valued Grandparent](https://leetcode.com/problems/sum-of-nodes-with-even-valued-grandparent/) | [Solution](./src/tree/1315.py)|Medium| DFS |
 |1469|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/) | [Solution](./src/tree/1469.py)|Easy| DFS |
 |1609|[Even Odd Tree](https://leetcode.com/problems/even-odd-tree/) | [Even Odd Tree](./src/tree/1609.py)|Medium| Tree level |
+|1644|[Lowest Common Ancestor of a Binary Tree II](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/) | [Solution](./src/tree/1644.py)|Medium| DFS + LCA |
+|1676|[Lowest Common Ancestor of a Binary Tree IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/) | [Solution](./src/tree/1676.py)|Medium| DFS + LCA |
 
 ## Binary Search
 | # | Title | Solution | Difficulty | Tag |
