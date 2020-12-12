@@ -1,28 +1,29 @@
-def canFinish(numCourses, prerequisites):
-    courseDict = collections.defaultdict(list)
-    visited = [0] * numCourses
-    for p in prerequisites:
-        cur_class = p[0]
-        preq_class = p[1]
-        courseDict[cur_class].append(preq_class)
-        
-    for course in range(numCourses): 
-        #DFS -> detect cycle -> returns False if cycle exists, else True
-        if dfs(course, courseDict, visited) == False:
+class Solution(object):
+    def dfs(self, courseDict, i, visited):
+        if visited[i] == -1:
             return False
-    return True
+        if visited[i] == 1:
+            return True
+        visited[i] = -1
+        for course in courseDict[i]:
+            if not self.dfs(courseDict, course, visited):
+                return False
 
-def dfs(course, courseDict, visited):
-    if visited[course] == -1:
-        return False
-    #If we have already been through, and there is no cycle
-    if visited[course] == 1:
+        visited[i] = 1
         return True
-        # Mark -1 for processing node
-    visited[course] = -1
-        
-    for neighbor in courseDict[course]:
-        if dfs(neighbor, courseDict, visited) == False:
-            return False
-    visited[course] = 1
-    return True
+
+    def canFinish(self, numCourses, prerequisites):
+        """
+        :type numCourses: int
+        :type prerequisites: List[List[int]]
+        :rtype: bool
+        """
+        visited = [0] * numCourses
+        courseDict = collections.defaultdict(list)
+        for course in prerequisites:
+            courseDict[course[1]].append(course[0])
+        print(courseDict)
+        for i in range(numCourses):
+            if (self.dfs(courseDict, i, visited) == False):
+                return False
+        return True

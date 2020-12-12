@@ -128,5 +128,12 @@ LeetCode
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/) | [Solution](./src/Graph/463.py)|Easy| Island Graph |
 |547|[Friend Circles](https://leetcode.com/problems/friend-circles/) | [Friend Circles](./src/Graph/547.py)|Medium| |
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Solution](./src/Graph/695.py)|Medium| Island Graph |
+|797|[All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/) | [Solution](./src/Graph/797.py)|Medium| DFS good |
+|802|[Find Eventual Safe States](https://leetcode.com/problems/find-eventual-safe-states/) | [Solution](./src/Graph/802.py)|Medium| DFS |
+|841|[Keys and Rooms](https://leetcode.com/problems/keys-and-rooms/) | [Solution](./src/Graph/841.py)|Medium| DFS good basic |
+|997|[Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | [Solution](./src/Graph/997.py)|Easy| In/Out Degree |
+|1059|[All Paths from Source Lead to Destination](https://leetcode.com/problems/all-paths-from-source-lead-to-destination/) | [Solution](./src/Graph/1059.py)|Medium| Topological Sort |
 |1254|[Number of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/) | [Solution](./src/Graph/1254.py)|Medium| Island Graph |
 |1462|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) | [Course Schedule IV](./src/Graph/1462.py)|Medium| Topological Sort |
+|1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) | [Solution](./src/Graph/1557.py)|Medium| In/Out Degree |
+|1615|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/) | [Solution](./src/Graph/1615.py)|Medium| In/Out Degree |
