@@ -9,6 +9,7 @@ LeetCode
 * [Sliding Window](https://github.com/danghai/leetcode#Sliding-Window)
 * [Trie](https://github.com/danghai/leetcode#Trie)
 * [Graph](https://github.com/danghai/leetcode#Graph)
+* [UnionFind](https://github.com/danghai/leetcode#UnionFind)
 
 
 
@@ -32,6 +33,7 @@ LeetCode
 |236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Solution](./src/tree/236.py)|Medium| DFS + LCA good |
 |257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/) | [Solution](./src/tree/257.py)|Easy| DFS Tree Path |
 |437|[Path Sum III](https://leetcode.com/problems/path-sum-iii/) | [Solution](./src/tree/437.py)|Medium| DFS Tree Path |
+|450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [Solution](./src/tree/450.py)|Medium| |
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Find Largest Value in Each Tree Row](./src/tree/515.py)|Medium| Tree level |
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Average of Levels in Binary Tree](./src/tree/637.py)|Easy| Tree level |
 |865|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) | [Solution](./src/tree/865.py)|Medium| DFS + LCA |
@@ -137,3 +139,14 @@ LeetCode
 |1462|[Course Schedule IV](https://leetcode.com/problems/course-schedule-iv/) | [Course Schedule IV](./src/Graph/1462.py)|Medium| Topological Sort |
 |1557|[Minimum Number of Vertices to Reach All Nodes](https://leetcode.com/problems/minimum-number-of-vertices-to-reach-all-nodes/) | [Solution](./src/Graph/1557.py)|Medium| In/Out Degree |
 |1615|[Maximal Network Rank](https://leetcode.com/problems/maximal-network-rank/) | [Solution](./src/Graph/1615.py)|Medium| In/Out Degree |
+
+## UnionFind
+| # | Title | Solution | Difficulty | Tag |
+|---| ----- | -------- | ---------- | --- |
+|0| | [Union template](https://www.techiedelight.com/disjoint-set-data-structure-union-find-algorithm/)|| |
+|261|[Graph Valid Tree](https://leetcode.com/problems/graph-valid-tree/) | [Solution](./src/UnionFind/261.py)|Medium| Important |
+|684|[Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Solution](./src/UnionFind/684.py)|Medium| Important |
+|952|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/) | [Solution](./src/UnionFind/952.py)|Hard| |
+|1135|[Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/) | [Solution](./src/UnionFind/1135.py)|Medium| |
+|1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | [Solution](./src/UnionFind/1319.py)|Medium| Good |
+|1627|[Graph Connectivity With Threshold](https://leetcode.com/problems/graph-connectivity-with-threshold/) | [Solution](./src/UnionFind/1627.py)|Hard| |
