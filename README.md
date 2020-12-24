@@ -17,6 +17,10 @@ LeetCode
 | # | Title | Solution | Difficulty | Tag |
 |---| ----- | -------- | ---------- | --- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Two_Sum](./src/1.py)|Easy| Two Pointer |
+|266|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) | [Solution](./src/HashTable/266.py)|Easy| |
+|359|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) | [Solution](./src/HashTable/359.py)|Easy| |
+|409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [Solution](./src/HashTable/409.py)|Easy| |
+|1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | [Solution](./src/HashTable/1160.py)|Easy| |
 |1647|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | [Minimum Deletions to Make Character Frequencies Unique](./src/HashTable/1647.py)|Medium| |
 |1679|[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [Solution](./src/HashTable/1679.py)|Medium| Good |
 
@@ -36,6 +40,7 @@ LeetCode
 |450|[Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [Solution](./src/tree/450.py)|Medium| |
 |515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/) | [Find Largest Value in Each Tree Row](./src/tree/515.py)|Medium| Tree level |
 |637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Average of Levels in Binary Tree](./src/tree/637.py)|Easy| Tree level |
+|863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) | [Solution](./src/tree/863.py)|Medium| |
 |865|[Smallest Subtree with all the Deepest Nodes](https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/) | [Solution](./src/tree/865.py)|Medium| DFS + LCA |
 |872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/) | [Solution](./src/tree/872.py)|Easy| DFS |
 |897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/) | [Solution](./src/tree/897.py)|Easy| DFS + Inorder |
@@ -72,6 +77,7 @@ LeetCode
 |973|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [K Closest Points to Origin](./src/Heap/973.py)|Medium| Good |
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | [Last Stone Weight](./src/Heap/1046.py)|Easy| |
 |1054|[Distant Barcodes](https://leetcode.com/problems/distant-barcodes/) | [Distant Barcodes](./src/Heap/1054.py)|Medium| Similar 767 |
+|1167|[Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/) | [Solution](./src/Heap/1167.py)|Medium| Good |
 |1636|[Sort Array by Increasing Frequency](https://leetcode.com/problems/sort-array-by-increasing-frequency/) | [Solution](./src/Heap/1636.py)|Easy| |
 
 
@@ -96,16 +102,20 @@ LeetCode
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | [Solution](./src/SlidingWindow/239.py)|Hard| |
 |340|[Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [Solution](./src/SlidingWindow/340.py)|Hard| Similar 159 |
 |395|[Longest Substring with At Least K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/) | [Solution](./src/SlidingWindow/395.py)|Medium| Hard to find shrink condition |
+|424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [Solution](./src/SlidingWindow/424.py)|Medium| |
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [Find All Anagrams in a String](./src/SlidingWindow/438.py)|Medium| |
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/) | [Permutation in String](./src/SlidingWindow/567.py)|Medium| |
 |713|[Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | [Solution](./src/SlidingWindow/713.py)|Medium| |
 |1004|[Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [Max Consecutive Ones III](./src/SlidingWindow/1004.py)|Medium| |
 |1100|[Find K-Length Substrings With No Repeated Characters](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/) | [Solution](./src/SlidingWindow/1100.py)|Medium| Good, Fix size |
+|1176|[Diet Plan Performance](https://leetcode.com/problems/diet-plan-performance/) | [Solution](./src/SlidingWindow/1176.py)|Easy| |
 |1208|[Get Equal Substrings Within Budget](https://leetcode.com/problems/get-equal-substrings-within-budget/) | [Solution](./src/SlidingWindow/1208.py)|Medium| Good |
 |1358|[Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) | [Solution](./src/SlidingWindow/1358.py)|Medium| |
+|1432|[Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) | [Solution](./src/SlidingWindow/1432.py)|Medium| |
 |1438|[Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) | [Solution](./src/SlidingWindow/1438.py)|Medium| Good, Heap + SlidingWindow |
 |1456|[Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | [Solution](./src/SlidingWindow/1456.py)|Medium| |
 |1658|[Minimum Operations to Reduce X to Zero](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) | [Solution](./src/SlidingWindow/1658.py)|Medium| |
+|1695|[Maximum Erasure Value](https://leetcode.com/problems/maximum-erasure-value/) | [Solution](./src/SlidingWindow/1695.py)|Medium| |
 
 ## Trie
 | # | Title | Solution | Difficulty | Tag |
@@ -149,4 +159,5 @@ LeetCode
 |952|[Largest Component Size by Common Factor](https://leetcode.com/problems/largest-component-size-by-common-factor/) | [Solution](./src/UnionFind/952.py)|Hard| |
 |1135|[Connecting Cities With Minimum Cost](https://leetcode.com/problems/connecting-cities-with-minimum-cost/) | [Solution](./src/UnionFind/1135.py)|Medium| |
 |1319|[Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) | [Solution](./src/UnionFind/1319.py)|Medium| Good |
+|1361|[Validate Binary Tree Nodes](https://leetcode.com/problems/validate-binary-tree-nodes/) | [Solution](./src/UnionFind/1361.py)|Medium| Similar 261 |
 |1627|[Graph Connectivity With Threshold](https://leetcode.com/problems/graph-connectivity-with-threshold/) | [Solution](./src/UnionFind/1627.py)|Hard| |
