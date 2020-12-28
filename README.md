@@ -18,9 +18,11 @@ LeetCode
 |---| ----- | -------- | ---------- | --- |
 |1|[Two Sum](https://leetcode.com/problems/two-sum/) | [Two_Sum](./src/1.py)|Easy| Two Pointer |
 |266|[Palindrome Permutation](https://leetcode.com/problems/palindrome-permutation/) | [Solution](./src/HashTable/266.py)|Easy| |
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | [Solution](./src/HashTable/350.py)|Easy| Good |
 |359|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/) | [Solution](./src/HashTable/359.py)|Easy| |
 |409|[Longest Palindrome](https://leetcode.com/problems/longest-palindrome/) | [Solution](./src/HashTable/409.py)|Easy| |
 |1160|[Find Words That Can Be Formed by Characters](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/) | [Solution](./src/HashTable/1160.py)|Easy| |
+|1198|[Find Smallest Common Element in All Rows](https://leetcode.com/problems/find-smallest-common-element-in-all-rows/) | [Solution](./src/HashTable/1198.py)|Medium| |
 |1647|[Minimum Deletions to Make Character Frequencies Unique](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) | [Minimum Deletions to Make Character Frequencies Unique](./src/HashTable/1647.py)|Medium| |
 |1679|[Max Number of K-Sum Pairs](https://leetcode.com/problems/max-number-of-k-sum-pairs/) | [Solution](./src/HashTable/1679.py)|Medium| Good |
 
@@ -84,12 +86,18 @@ LeetCode
 ## Backtracking
 | # | Title | Solution | Difficulty | Tag |
 |---| ----- | -------- | ---------- | --- |
+|17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Solution](./src/backtracking/17.py)|Medium| Good |
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/) | [Combination Sum](./src/backtracking/39.py)|Medium| Good |
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [Combination Sum II](./src/backtracking/40.py)|Medium| |
 |46|[Permutations](https://leetcode.com/problems/permutations/) | [Permutations](./src/backtracking/46.py)|Medium| Important |
 |47|[Permutations II](https://leetcode.com/problems/permutations-ii/) | [Permutations II](./src/backtracking/47.py)|Medium| |
 |51|[N-Queens](https://leetcode.com/problems/n-queens/) | [N-Queens](./src/backtracking/51.py)|Hard| |
 |52|[N-Queens 2](https://leetcode.com/problems/n-queens-ii/) | [N-Queens](./src/backtracking/52.py)|Hard| |
+|77|[Combinations](https://leetcode.com/problems/combinations/) | [Solution](./src/backtracking/77.py)|Medium| |
+|78|[Subsets](https://leetcode.com/problems/subsets/) | [Solution](./src/backtracking/78.py)|Medium| Good |
+|90|[Subsets II](https://leetcode.com/problems/subsets-ii/) | [Solution](./src/backtracking/90.py)|Medium| |
+|216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | [Solution](./src/backtracking/216.py)|Medium| |
+|1641|[Count Sorted Vowel Strings](https://leetcode.com/problems/count-sorted-vowel-strings/) | [Solution](./src/backtracking/1641.py)|Medium| |
 
 ## Sliding Window
 | # | Title | Solution | Difficulty | Tag |

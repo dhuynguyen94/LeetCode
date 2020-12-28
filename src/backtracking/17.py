@@ -1,42 +1,26 @@
-   dialPad = {"2":'abc',
-                   "3": 'def',
-                   "4": 'ghi',
-                   "5": 'jkl',
-                   "6": 'mno',
-                   "7": 'pqrs',
-                   "8": 'tuv',
-                   "9": 'wxyz'}
- # backtrack
-        result = []
-        if len(digits) == 0:
+class Solution:
+    def letterCombinations(self, digits: str) -> List[str]:
+        self.phone = {
+            '2': 'abc',
+            '3': 'def',
+            '4': 'ghi',
+            '5': 'jkl',
+            '6': 'mno',
+            '7': 'pqrs',
+            '8': 'tuv',
+            '9': 'wxyz'
+        }
+        if len(digits) == 0: return []
+        self.ans = []
+        self.backtrack(digits, [], 0)
+        return self.ans
+
+    def backtrack(self, digits, path, idx):
+        if idx == len(digits):   # base case
+            self.ans.append(''.join(path))
             return
-        self.backtrackletterCombinations(dialPad,result,digits,[],0)
-        return result
-    def backtrackletterCombinations(self,dialPad,result,digits,path,index):
-        if index == len(digits):
-            result.append(''.join(path[:]))
-            return 
-        for i in range(len(dialPad[digits[index]])):
-            path.append(dialPad[digits[index]][i])
-            self.backtrackletterCombinations(dialPad,result,digits,path,index+1)
-            path.pop()     
-      
-      
-      
- # recursive
-        # base case
-        if len(digits) == 0:
-            return []
-        if len(digits) == 1:
-            return dialPad[digits[0]]
-        
-        
-        
-        # recursive function     #234
-        first_number = dialPad[digits[0]] #2 #3
-        second_number = self.letterCombinations(digits[1:]) # recursive #34  #4 
-        result = []
-        for item1 in first_number: #2   #3
-            for item2 in second_number: #34 #4
-                result.append(item1 + item2)  #2 + #34
-        return result
+        val_digit = self.phone[digits[idx]]
+        for i in range(len(val_digit)):
+            path.append(val_digit[i])
+            self.backtrack(digits, path, idx+1)
+            path.pop()
